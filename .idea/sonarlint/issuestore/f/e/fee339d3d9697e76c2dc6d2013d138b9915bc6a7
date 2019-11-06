@@ -1,0 +1,11 @@
+
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ô‚Ç“ùÿÿÿÿ8ÙÑÐçÃ-
+~squid:UselessImportCheck"NRemove this unused import 'org.springframework.data.redis.core.RedisTemplate'.(–ª¡Çøÿÿÿÿ8ÙÑÐçÃ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ø¸Šµ8ÙÑÐçÃ-
+[
+squid:S1060"9Replace this use of System.out or System.err by a logger.(Ô‚Ç“ùÿÿÿÿ8ÙÑÐçÃ-
+isquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(ÑÉÓƒ8ÙÑÐçÃ-
+[
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Ô‚Ç“ùÿÿÿÿ8ÙÑÐçÃ-
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(íò¯áøÿÿÿÿ8ÙÑÐçÃ-

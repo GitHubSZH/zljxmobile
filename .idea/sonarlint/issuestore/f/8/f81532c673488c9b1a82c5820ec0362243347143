@@ -1,0 +1,12 @@
+
+Fsquid:S1444"/Make this "public static optionMap" field final(ÇÑè†
+É"squid:ClassVariableVisibilityCheck"UMake optionMap a static final constant or non-public and provide accessors if needed.(ÇÑè†
+òsquid:S1186?"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çì∂Ó
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÇÑè†
+gsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(‹÷ôì˛ˇˇˇˇ
+bsquid:UselessImportCheck"9Remove this unused import 'com.zljx.vo.ObjectMapperUtil'.(ÕÀÚá˛ˇˇˇˇ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïç†Ñ
+Tsquid:UselessImportCheck"0Remove this unused import 'com.zljx.pojo.Admin'.(ø∑Ö∫
+4squid:S2386"Make this member "protected".(ÇÑè†
+dsquid:UselessImportCheck"ARemove this unused import 'org.springframework.util.StringUtils'.(–Ùˇ
+òsquid:S1186D"ÄAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(à∂íÈ

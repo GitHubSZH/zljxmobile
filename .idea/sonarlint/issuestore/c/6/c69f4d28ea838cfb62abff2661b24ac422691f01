@@ -1,0 +1,10 @@
+
+jsquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(à¹ß¥8ëÌ×Ä-
+Fsquid:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ø½‡æ¸-
+Fsquid:S1148z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Á­ç¸-
+‰squid:S11921"kDefine a constant instead of duplicating this literal "ç³»ç»Ÿæ­£åœ¨ä¿®å¤ä¸­è¯·ç¨åå°è¯•è®¿é—®" 6 times.(ßˆçÒ8òÅ×¹¸-
+esquid:UselessImportCheck":Remove this unused import 'com.zljx.service.JDBCTemplate'.(ü×Ÿ8à»óÚº-
+Fsquid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¦÷ºº¸-
+Fsquid:S1148]"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ğÃ»º¸-
+Fsquid:S1148L"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ğš»º¸-
+Fsquid:S1148l"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ğÃ»º¸-

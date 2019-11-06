@@ -1,0 +1,10 @@
+
+}squid:S1149T"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8¤Ñ’ï¿-
+msquid:S3027C"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(Şá¿¬ùÿÿÿÿ8¬ãï¿-
+€squid:UselessImportCheck"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àıÿÿÿÿ8””—ô¿-
+isquid:UselessImportCheck	"9Remove this unused import 'org.springframework.ui.Model'.(ê†ıÿÿÿÿ8Á‘ô¿-
+V
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Œ×ûÊ8¬ãï¿-
+V
+squid:S106="9Replace this use of System.out or System.err by a logger.(™šª³8…¡÷ï¿-
+;squid:S2119S"Save and re-use this "Random".(¼İÅf8¤Ñ’ï¿-

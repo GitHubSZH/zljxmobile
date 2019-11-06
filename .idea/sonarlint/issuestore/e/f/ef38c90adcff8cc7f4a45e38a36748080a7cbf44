@@ -1,0 +1,26 @@
+
+T
+squid:S106W"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+T
+squid:S106d"9Replace this use of System.out or System.err by a logger.(Ã¸¬¤ùÿÿÿÿ
+O
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ï¬Æ
+T
+squid:S106<"9Replace this use of System.out or System.err by a logger.(Ä¿¼ùùÿÿÿÿ
+bsquid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(ªú÷
+O
+squid:S106?"9Replace this use of System.out or System.err by a logger.(ğîŒ
+O
+squid:S106-"9Replace this use of System.out or System.err by a logger.(Ñ·Ìü
+"squid:ClassVariableVisibilityCheckp"QMake fsize a static final constant or non-public and provide accessors if needed.(¦ªŒŸ
+bsquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(Äµ¹ê
+~"squid:ClassVariableVisibilityCheckr"PMake hash a static final constant or non-public and provide accessors if needed.(õïœÄ
+^squid:S00112I"FDefine and throw a dedicated exception instead of using a generic one.(ßÁÁâ
+rsquid:S00115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(òˆô¶
+bsquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(¢ÿ±Ï
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸ÏÑÁÿÿÿÿÿ
+"squid:ClassVariableVisibilityChecks"QMake width a static final constant or non-public and provide accessors if needed.(øÂ½
+€"squid:ClassVariableVisibilityCheckt"RMake height a static final constant or non-public and provide accessors if needed.(ñ½
+T
+squid:S106k"9Replace this use of System.out or System.err by a logger.(Ä¿¼ùùÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheckq"OMake key a static final constant or non-public and provide accessors if needed.(·¢¼Òüÿÿÿÿ

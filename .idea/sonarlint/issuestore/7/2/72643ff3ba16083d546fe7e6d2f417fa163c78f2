@@ -1,0 +1,30 @@
+
+Gsquid:S1148”"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÿÒã¸-
+msquid:S00100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠãÂ8±˜€¾·-
+isquid:S4488±"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(À¤Â8ŞÄšä¸-
+isquid:S4488Ÿ"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(è•Ë8µ­áã¸-
+dsquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ù†âĞÿÿÿÿÿ
+„squid:S1488S"aImmediately return this expression instead of assigning it to the temporary variable "resultLay".(€š¯ ûÿÿÿÿ8±˜€¾·-
+Gsquid:S1148¸"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŞÄšä¸-
+hsquid:S4488?"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(À·™Ø8±˜€¾·-
+[
+squid:S106P"9Replace this use of System.out or System.err by a logger.(óº«şùÿÿÿÿ8±˜€¾·-
+msquid:S4488N"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(›ñøÿÿÿÿ8±˜€¾·-
+Gsquid:S1148Ë"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8°Ü¢ä¸-
+lsquid:S4488ˆ"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¾£¯ÿÿÿÿÿ8ÿÒã¸-
+_squid:S4488,"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(‡æÉ
+ksquid:S4488s"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ô¿ì§ÿÿÿÿÿ8šıÑã¸-
+[
+squid:S106B"9Replace this use of System.out or System.err by a logger.(óº«şùÿÿÿÿ8±˜€¾·-
+…squid:S1488µ"aImmediately return this expression instead of assigning it to the temporary variable "resultLay".(ÅòÙÅúÿÿÿÿ8ŞÄšä¸-
+nsquid:S00100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öí°‹8ŞÄšä¸-
+Fsquid:S1148#"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷ú¡ú¶-
+Fsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8±˜€¾·-
+„squid:S1488E"aImmediately return this expression instead of assigning it to the temporary variable "resultLay".(¼Öºøÿÿÿÿ8±˜€¾·-
+Gsquid:S1148§"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8µ­áã¸-
+nsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(Ûá¿úÿÿÿÿ8±˜€¾·-
+…squid:S1488¤"aImmediately return this expression instead of assigning it to the temporary variable "resultLay".(ä€œÁúÿÿÿÿ8µ­áã¸-
+Fsquid:S1148}"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8šıÑã¸-
+Fsquid:S1148V"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8±˜€¾·-
+Fsquid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8±˜€¾·-
+Fsquid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8±˜€¾·-

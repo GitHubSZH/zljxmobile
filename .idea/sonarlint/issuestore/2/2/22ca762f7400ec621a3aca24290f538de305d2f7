@@ -1,0 +1,17 @@
+
+?squid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+[
+squid:S106o"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8Ã…ğİ-
+hsquid:S2095"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.(¡Ë®ç
+usquid:S00117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º“Åóøÿÿÿÿ8ÃÒúïİ-
+zsquid:S1488C"^Immediately return this expression instead of assigning it to the temporary variable "result".(Ù–¾ûüÿÿÿÿ
+?squid:S1148M"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+bsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(´ˆƒ
+O
+squid:S1065"9Replace this use of System.out or System.err by a logger.(àÓú
+N
+squid:S106("9Replace this use of System.out or System.err by a logger.(ƒÚáB
+Csquid:S14819",Remove this unused "charSet" local variable.(’‚ÒÛ
+?squid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+nsquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ùŸ³ıÿÿÿÿ
+?squid:S1148S"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

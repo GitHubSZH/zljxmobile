@@ -1,0 +1,11 @@
+
+¤%squid:RedundantThrowsDeclarationCheck1"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ìÕ‡Ï-
+V
+squid:S1069"9Replace this use of System.out or System.err by a logger.(«Ø¥8ìÕ‡Ï-
+tsquid:S2159%"VRemove this call to "equals"; comparisons between unrelated types always return false.(ìºêØ8ìÕ‡Ï-
+bsquid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8›¯‡çÊ-
+V
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ÛÀÄû8ìÕ‡Ï-
+usquid:S00117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çá¹şÿÿÿÿ8ëïš¾Ê-
+isquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(ÿÛş´8ìÕ‡Ï-
+isquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(•áíü8ìÕ‡Ï-

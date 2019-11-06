@@ -1,0 +1,8 @@
+
+wsquid:UselessImportCheck
+"NRemove this unused import 'org.springframework.data.redis.core.RedisTemplate'.(–ª¡Çøÿÿÿÿ
+psquid:UselessImportCheck"LRemove this unused import 'com.fasterxml.jackson.annotation.JsonAutoDetect'.(¾àÒ
+†squid:UselessImportCheck"bRemove this unused import 'org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer'.(…ÿÀ“
+lsquid:UselessImportCheck"HRemove this unused import 'com.fasterxml.jackson.databind.ObjectMapper'.(´‘¨™
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±‰±Ê
+wsquid:UselessImportCheck"NRemove this unused import 'com.fasterxml.jackson.annotation.PropertyAccessor'.(·ØÉ“ÿÿÿÿÿ

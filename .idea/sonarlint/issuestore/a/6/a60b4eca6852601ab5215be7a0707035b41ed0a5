@@ -1,0 +1,11 @@
+
+isquid:S2184E"FCast one of the operands of this multiplication operation to a "long".(ÚğÈşÿÿÿÿ8çÍ—ŒÄ-
+isquid:S21844"FCast one of the operands of this multiplication operation to a "long".(¸©ñìüÿÿÿÿ8™™–ŒÄ-
+ssquid:S11924"PDefine a constant instead of duplicating this literal "session_userId_" 3 times.(¸©ñìüÿÿÿÿ8™™–ŒÄ-
+squid:S1186\"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õ¤ø¾ùÿÿÿÿ
+squid:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İòËíøÿÿÿÿ
+?squid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(ŞÓ×ßüÿÿÿÿ8¤ô’ŒÄ-
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ä®Ò8¤ô’ŒÄ-
+[
+squid:S106>"9Replace this use of System.out or System.err by a logger.(”½Ùûÿÿÿÿ8¤ô’ŒÄ-

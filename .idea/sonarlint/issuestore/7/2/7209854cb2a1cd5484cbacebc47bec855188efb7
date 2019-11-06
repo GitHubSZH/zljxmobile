@@ -1,0 +1,8 @@
+
+Dsquid:S1481"(Remove this unused "jwt" local variable.(Î–ë£şÿÿÿÿ
+]squid:S2184"FCast one of the operands of this multiplication operation to a "long".(ß¸µ
+`squid:S1192"IDefine a constant instead of duplicating this literal "username" 3 times.(µÉ©›
+^squid:S1192"GDefine a constant instead of duplicating this literal "userId" 3 times.(¼÷¦…
+dsquid:S2259;"HA "NullPointerException" could be thrown; "expiration" is nullable here.(èŒìûıÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(Ş‹ı
+Ssquid:S1854"7Remove this useless assignment to local variable "jwt".(Î–ë£şÿÿÿÿ

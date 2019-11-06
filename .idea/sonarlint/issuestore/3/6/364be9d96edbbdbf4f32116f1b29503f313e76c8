@@ -1,0 +1,32 @@
+
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ράμΈ
+isquid:CallToDeprecatedMethod"9Remove this use of "CELL_TYPE_NUMERIC"; it is deprecated.(§Τ„½8ώμ©Λ-
+hsquid:CallToDeprecatedMethod"3Remove this use of "getCellType"; it is deprecated.(σλΥωÿÿÿÿ8ώμ©Λ-
+lsquid:CallToDeprecatedMethod"7Remove this use of "CELL_TYPE_ERROR"; it is deprecated.(‘ΉΪΡÿÿÿÿÿ8ώμ©Λ-
+isquid:S30273"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(΄ΓΌωÿÿÿÿ8ώμ©Λ-
+isquid:CallToDeprecatedMethod"9Remove this use of "CELL_TYPE_NUMERIC"; it is deprecated.(ΐΙίώ8φρκΛ-
+hsquid:S2259h"EA "NullPointerException" could be thrown; "keyList" is nullable here.(Òζ­ωÿÿÿÿ8ί’ΏΛ-
+vsquid:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(Φ‹θ)8ώμ©Λ-
+lsquid:CallToDeprecatedMethod›"7Remove this use of "CELL_TYPE_BLANK"; it is deprecated.(ϋ€µλÿÿÿÿÿ8ώμ©Λ-
+]squid:S1075"ARefactor your code to get this URI from a customizable parameter.(²—΅ÿÿÿÿÿ
+squid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "maps".(—Θΐξύÿÿÿÿ8ώμ©Λ-
+nsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(Ζ¤‘ωÿÿÿÿ8ώμ©Λ-
+ksquid:UselessImportCheck	"ARemove this unused import 'org.springframework.util.StringUtils'.(Πτÿ8ΊΠ—ΏΛ-
+Fsquid:S1148!"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ώμ©Λ-
+msquid:CallToDeprecatedMethod’"8Remove this use of "CELL_TYPE_STRING"; it is deprecated.(η΄ξόÿÿÿÿ8ώμ©Λ-
+hsquid:CallToDeprecatedMethod‹"3Remove this use of "setCellType"; it is deprecated.(ΈΊª΄ψÿÿÿÿ8φρκΛ-
+]squid:S1118":Add a private constructor to hide the implicit public one.(Ϊα²άψÿÿÿÿ8τΛ¨Λ-
+isquid:CallToDeprecatedMethod"9Remove this use of "CELL_TYPE_FORMULA"; it is deprecated.(£Φί€8ώμ©Λ-
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ƒβ8¶ξ¨Λ-
+Isquid:S1168#"+Return an empty collection instead of null.(¥Ήο8ώμ©Λ-
+csquid:CallToDeprecatedMethod"3Remove this use of "getCellType"; it is deprecated.(§Τ„½8ώμ©Λ-
+nsquid:CommentedOutCodeLineq"<This block of commented-out lines of code should be removed.(‰¤§ώÿÿÿÿ8ώμ©Λ-
+Fsquid:S1148T"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ώμ©Λ-
+usquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ώληόÿÿÿÿ8ώμ©Λ-
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²—΅ÿÿÿÿÿ
+[
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ΎΥ΄ψÿÿÿÿ8ΆοΏΛ-
+Usquid:S1135S"2Complete the task associated to this TODO comment.(ΥΜ®ώÿÿÿÿ8ώμ©Λ-
+nsquid:CallToDeprecatedMethod•"9Remove this use of "CELL_TYPE_BOOLEAN"; it is deprecated.(Ε‹Ώρψÿÿÿÿ8ώμ©Λ-
+msquid:CallToDeprecatedMethod‹"8Remove this use of "CELL_TYPE_STRING"; it is deprecated.(ΈΊª΄ψÿÿÿÿ8€ΣΩΛ-
+nsquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(Α”ήόÿÿÿÿ8ώμ©Λ-

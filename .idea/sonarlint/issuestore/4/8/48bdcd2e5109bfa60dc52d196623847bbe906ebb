@@ -1,0 +1,38 @@
+
+Psquid:S2864a"4Iterate over the "entrySet" instead of the "keySet".(¾şÏÎÿÿÿÿÿ
+psquid:ModifiersOrderCheck«"EReorder the modifiers to comply with the Java Language Specification.(¿É¢¸ıÿÿÿÿ
+@squid:S1148œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Qsquid:S2864¬"4Iterate over the "entrySet" instead of the "keySet".(³õ»ışÿÿÿÿ
+psquid:ModifiersOrderCheckã"EReorder the modifiers to comply with the Java Language Specification.(³”àóÿÿÿÿÿ
+psquid:ModifiersOrderCheckÌ"EReorder the modifiers to comply with the Java Language Specification.(–İÁşÿÿÿÿ
+osquid:ModifiersOrderCheck?"EReorder the modifiers to comply with the Java Language Specification.(ƒĞ…Òùÿÿÿÿ
+ksquid:ModifiersOrderCheck¼"EReorder the modifiers to comply with the Java Language Specification.(ÿé¤²
+Psquid:S2864p"4Iterate over the "entrySet" instead of the "keySet".(³õ»ışÿÿÿÿ
+vsquid:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õçşñùÿÿÿÿ
+¡squid:S1319#"‰The type of the "socketServers" object should be an interface such as "ConcurrentMap" rather than the implementation "ConcurrentHashMap".(å“û¯
+£squid:S13196"†The type of the "sessionMap" object should be an interface such as "ConcurrentMap" rather than the implementation "ConcurrentHashMap".(¥•¦Ÿıÿÿÿÿ
+P
+squid:S106Í"9Replace this use of System.out or System.err by a logger.(©áŒº
+:squid:S1148ˆ"#Use a logger to log this exception.(ˆñA
+O
+squid:S106®"9Replace this use of System.out or System.err by a logger.(¿Òç
+lsquid:S00100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³”àóÿÿÿÿÿ
+T
+squid:S106_"9Replace this use of System.out or System.err by a logger.(çğ²êúÿÿÿÿ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(‡ıİĞùÿÿÿÿ
+Osquid:S1135Ô"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+P
+squid:S106²"9Replace this use of System.out or System.err by a logger.(Äû™Ö
+squid:S13192"The return type of this method should be an interface such as "ConcurrentMap" rather than the implementation "ConcurrentHashMap".(¤æ¥¦ÿÿÿÿÿ
+Qsquid:S2864¾"4Iterate over the "entrySet" instead of the "keySet".(³õ»ışÿÿÿÿ
+Qsquid:S2864Î"4Iterate over the "entrySet" instead of the "keySet".(¾şÏÎÿÿÿÿÿ
+8squid:S3457"2nd argument is not used.(éßÕÉ8Æ¬õ¿-
+Qsquid:S2864–"4Iterate over the "entrySet" instead of the "keySet".(¾şÏÎÿÿÿÿÿ
+ksquid:ModifiersOrderCheck•"EReorder the modifiers to comply with the Java Language Specification.(€«ë¶
+Qsquid:S2864ƒ"4Iterate over the "entrySet" instead of the "keySet".(³õ»ışÿÿÿÿ
+usquid:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(’ œ”ıÿÿÿÿ
+@squid:S1148Õ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ñ¦â°ûÿÿÿÿ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÒï
+™squid:S1319"The return type of this method should be an interface such as "ConcurrentMap" rather than the implementation "ConcurrentHashMap".(øõ…Æ
