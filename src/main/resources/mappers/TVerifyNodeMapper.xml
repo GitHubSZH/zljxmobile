@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zljx.mapper.TVerifyNodeMapper">
+  <resultMap id="BaseResultMap" type="com.zljx.verify.TVerifyNode">
+    <id column="node_id" jdbcType="BIGINT" property="nodeId" />
+    <result column="operation_id" jdbcType="BIGINT" property="operationId" />
+    <result column="flow_id" jdbcType="BIGINT" property="flowId" />
+    <result column="flow_order" jdbcType="TINYINT" property="flowOrder" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    node_id, operation_id, flow_id, flow_order
+  </sql>
+  <select id="selectByExample" parameterType="com.zljx.verify.TVerifyNodeExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_verify_node
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_verify_node
+    where node_id = #{nodeId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from t_verify_node
+    where node_id = #{nodeId,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.zljx.verify.TVerifyNodeExample">
+    delete from t_verify_node
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.zljx.verify.TVerifyNode">
+    insert into t_verify_node (node_id, operation_id, flow_id, 
+      flow_order)
+    values (#{nodeId,jdbcType=BIGINT}, #{operationId,jdbcType=BIGINT}, #{flowId,jdbcType=BIGINT}, 
+      #{flowOrder,jdbcType=TINYINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zljx.verify.TVerifyNode">
+    insert into t_verify_node
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="nodeId != null">
+        node_id,
+      </if>
+      <if test="operationId != null">
+        operation_id,
+      </if>
+      <if test="flowId != null">
+        flow_id,
+      </if>
+      <if test="flowOrder != null">
+        flow_order,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="nodeId != null">
+        #{nodeId,jdbcType=BIGINT},
+      </if>
+      <if test="operationId != null">
+        #{operationId,jdbcType=BIGINT},
+      </if>
+      <if test="flowId != null">
+        #{flowId,jdbcType=BIGINT},
+      </if>
+      <if test="flowOrder != null">
+        #{flowOrder,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.zljx.verify.TVerifyNodeExample" resultType="java.lang.Long">
+    select count(*) from t_verify_node
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update t_verify_node
+    <set>
+      <if test="record.nodeId != null">
+        node_id = #{record.nodeId,jdbcType=BIGINT},
+      </if>
+      <if test="record.operationId != null">
+        operation_id = #{record.operationId,jdbcType=BIGINT},
+      </if>
+      <if test="record.flowId != null">
+        flow_id = #{record.flowId,jdbcType=BIGINT},
+      </if>
+      <if test="record.flowOrder != null">
+        flow_order = #{record.flowOrder,jdbcType=TINYINT},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update t_verify_node
+    set node_id = #{record.nodeId,jdbcType=BIGINT},
+      operation_id = #{record.operationId,jdbcType=BIGINT},
+      flow_id = #{record.flowId,jdbcType=BIGINT},
+      flow_order = #{record.flowOrder,jdbcType=TINYINT}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zljx.verify.TVerifyNode">
+    update t_verify_node
+    <set>
+      <if test="operationId != null">
+        operation_id = #{operationId,jdbcType=BIGINT},
+      </if>
+      <if test="flowId != null">
+        flow_id = #{flowId,jdbcType=BIGINT},
+      </if>
+      <if test="flowOrder != null">
+        flow_order = #{flowOrder,jdbcType=TINYINT},
+      </if>
+    </set>
+    where node_id = #{nodeId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zljx.verify.TVerifyNode">
+    update t_verify_node
+    set operation_id = #{operationId,jdbcType=BIGINT},
+      flow_id = #{flowId,jdbcType=BIGINT},
+      flow_order = #{flowOrder,jdbcType=TINYINT}
+    where node_id = #{nodeId,jdbcType=BIGINT}
+  </update>
+
+  <select id="selectByFlowId" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_verify_node where flow_id=#{verifyFlowId,jdbcType=BIGINT} order by flow_order desc
+  </select>
+
+</mapper>
